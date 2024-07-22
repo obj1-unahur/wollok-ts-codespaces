@@ -1,0 +1,12 @@
+{
+  "name": "wollok-codespace",
+  "version": "1.0.0",
+  "wollokVersion": "4.0.0",
+  "author": "codespace",
+  "license": "ISC",
+  "scripts": {
+    "start": "npm run extesiones & npm run wollok",
+    "extesiones": "code --install-extension uqbar.wollok-lsp-ide && code --install-extension uqbar.wollok-highlight",
+    "wollok": "wget https://github.com/uqbar-project/wollok-ts-cli/releases/download/v0.2.5/wollok-ts-cli-linux-x64 -O wollok && chmod +x wollok && sudo mv wollok /usr/local/bin/"
+  }
+}
